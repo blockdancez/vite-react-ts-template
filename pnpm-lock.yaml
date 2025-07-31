@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lumi.new/sdk':
-        specifier: ^0.0.9
-        version: 0.0.9
+        specifier: ^0.0.10
+        version: 0.0.10
       framer-motion:
         specifier: ^12.23.11
         version: 12.23.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -379,8 +379,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@lumi.new/sdk@0.0.9':
-    resolution: {integrity: sha512-h8t5I9meI5v3p1BbidnVSo4661NR1eo0lvbABOvTPazCHxcuAF0/K5zKV9x/q62H+HgFIoqiZOEP4Xde6PCsQQ==}
+  '@lumi.new/sdk@0.0.10':
+    resolution: {integrity: sha512-hqyc6AYxUfxidtowhu8KJmVi9wqElanvAVR5okgEwAyVvfXgmSnku4ST2YSY6AoOQKlOx0YZ77es+R4Fmm5glA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1713,7 +1713,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  '@lumi.new/sdk@0.0.9':
+  '@lumi.new/sdk@0.0.10':
     dependencies:
       ofetch: 1.4.1
       uuid: 11.1.0
