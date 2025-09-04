@@ -35,7 +35,7 @@ export default defineConfig(({ mode }) => {
     define,
     resolve: {
       alias: {
-        '@': './src',
+        '@': '/src',
       }
     },
     optimizeDeps: {
