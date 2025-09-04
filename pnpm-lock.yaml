@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lumi.new/sdk':
-        specifier: ^0.1.5
-        version: 0.1.5
+        specifier: ^0.1.6
+        version: 0.1.6
       framer-motion:
         specifier: ^12.23.11
         version: 12.23.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -292,8 +292,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@lumi.new/sdk@0.1.5':
-    resolution: {integrity: sha512-hMHJkCXIYb7oWoJ86/pwH5W6GdMH+EKxwV/98NXx6vM9U7jmWaTxypyAbKTh32t9/owy7MXlJfc70S6QM0tS9g==}
+  '@lumi.new/sdk@0.1.6':
+    resolution: {integrity: sha512-Fy7zGsEhIeKzeIDdJcqKN62KIlgUwSgCv9D+tTh2jcy37UZ35Civpv4KVPvPLdNQ++lp2DymhFqTfzVtvvoXuA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -681,6 +681,9 @@ packages:
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
+
+  crypto-js@4.2.0:
+    resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
 
   cssesc@3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
@@ -1540,8 +1543,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  '@lumi.new/sdk@0.1.5':
+  '@lumi.new/sdk@0.1.6':
     dependencies:
+      crypto-js: 4.2.0
       ofetch: 1.4.1
       uuid: 11.1.0
 
@@ -1898,6 +1902,8 @@ snapshots:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+
+  crypto-js@4.2.0: {}
 
   cssesc@3.0.0: {}
 
