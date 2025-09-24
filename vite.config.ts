@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
   if (mode === 'development') {
     build = {
       minify: false,
+      sourcemap: true,
       rollupOptions: {
         output: {
           manualChunks: undefined,
