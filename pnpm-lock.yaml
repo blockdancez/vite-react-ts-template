@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lumi.new/sdk':
-        specifier: 0.1.11
-        version: 0.1.11
+        specifier: 0.2.0
+        version: 0.2.0
       framer-motion:
         specifier: ^12.23.11
         version: 12.23.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -292,8 +292,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@lumi.new/sdk@0.1.11':
-    resolution: {integrity: sha512-y4hgZYVDIPIzCV7oF5g0dAYfEsTqkdX/IQWQn8yyQX8D5PcD6NPrhVKCoGWzwm5RtRkzEmU0diIuTfDVNk5JDA==}
+  '@lumi.new/sdk@0.2.0':
+    resolution: {integrity: sha512-8cB3a72iF/8QM0pLzGmqpQ9oJibThkdIAgDiKrN/bs/c3vI1jQBgi4j3LY4YgKENPy5JRilMa90qd2DWwbBoqg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1558,7 +1558,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  '@lumi.new/sdk@0.1.11':
+  '@lumi.new/sdk@0.2.0':
     dependencies:
       crypto-js: 4.2.0
       object-hash: 3.0.0
