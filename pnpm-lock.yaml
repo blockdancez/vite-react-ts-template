@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@lumi.new/sdk':
-        specifier: 0.3.3
-        version: 0.3.3
+        specifier: 0.3.4
+        version: 0.3.4
       framer-motion:
         specifier: 12.23.11
         version: 12.23.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -271,8 +271,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@lumi.new/sdk@0.3.3':
-    resolution: {integrity: sha512-/WzzH3ZiL2v/ZU/+mKP8fciCgKTHygLuN2jjUC9qA6EbQrNZxJ7lLX1uQbxQUiM53M9cKaMj+pIPdEBrWSiw2Q==}
+  '@lumi.new/sdk@0.3.4':
+    resolution: {integrity: sha512-3VifsPk2Rz0/TxwiCc88MBQ230VL1moqye9edeebC7UkmvoaBhti4uaYBlKr26een/he+654fH6inR7C4++jYQ==}
     engines: {node: '>=18'}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -1505,7 +1505,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  '@lumi.new/sdk@0.3.3':
+  '@lumi.new/sdk@0.3.4':
     dependencies:
       crypto-js: 4.2.0
       eventsource-parser: 3.0.6
